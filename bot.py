@@ -41,8 +41,7 @@ from telegram.ext import (
 BOT_TOKEN = "8593907353:AAE6Uh02Rhm8KWUI3aqYy1IfAs3dZHHhljk"
 OWNER_ID = 8919487892
 BOT_NAME = "OGGY ST CHK"
-DB_PATH = os.environ.get("DB_PATH", "oggy.db")
-
+DB_PATH = "oggy.db"
 TEST_CARD = "4031630422575208|01|2030|280"
 
 logging.basicConfig(format="%(asctime)s [%(levelname)s] %(name)s: %(message)s", level=logging.INFO)
